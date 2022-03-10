@@ -1,6 +1,6 @@
 /* basic box styling */
 html {
-    background-color: rgb(33, 223, 33);
+    background-color: darkkhaki;
 }
 *, *::after, *::before {
   box-sizing: border-box;
@@ -77,9 +77,13 @@ body {
 /* style for x */
 
 .cell.x::before,
-.cell.x::after,
+.cell.x::after{
+    background-color: green;
+
+}
+
 .cell.circle::before  {
-    background-color: black;
+    background-color: red;
 
 }
 
@@ -140,7 +144,7 @@ body {
 .board.circle .cell:not(.x):not(.circle):hover::after {
     width: calc(var(--mark-size) * .7);
     height: calc(var(--mark-size) * .7);
-    background-color: rgb(33, 223, 33);
+    background-color: darkkhaki;
 }
 
 /* button styling */
@@ -177,4 +181,19 @@ body {
 
 .winning-message.show {
     display: flex;
+}
+
+.title {
+    width: 100vh;
+    height: 50vh;
+    text-align: center;
+    font-family: impact, bold;
+    word-spacing: 3px;
+    font-size: 3rem;
+    display: block;
+    margin: 0;
+    position: absolute;               
+    left: 25%;    
+    
+    
 }
