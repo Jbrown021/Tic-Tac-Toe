@@ -27,3 +27,6 @@ All notable changes to this project will be documented in this file.
 ## Jul 29, 2022
 ### Edit
 - Refactored css of the title screen using sass
+
+## Aug 6th, 2022
+### Deployed game via github pages
